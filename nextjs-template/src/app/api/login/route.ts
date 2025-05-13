@@ -5,7 +5,7 @@ import { ServerHandler } from "@/lib/server/util/db_util"
 import { StringUtils } from "@/lib/common/util/string_utils";
 import { SessionDAO } from "@/lib/server/dao/session";
 import { UserAccountDAO } from "@/lib/server/dao/user_account";
-import { AuthenticationExeption, ConsistencyExeption } from "@/lib/server/util/exeption";
+import { AuthenticationExeption } from "@/lib/server/util/exeption";
 
 export const dynamic = 'force-dynamic'
 

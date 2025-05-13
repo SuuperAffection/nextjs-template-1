@@ -15,8 +15,6 @@ export async function POST(
         const token = StringUtils.nvl(req.cookies.get('token')?.value)
         const user = await SessionDAO.checkToken(client, token)
 
-        console.log(token)
-
         if (user === undefined) {
             throw new AuthenticationExeption()
         }

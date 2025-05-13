@@ -1,0 +1,17 @@
+.bg {
+    background-color: black !important;
+}
+
+.overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.progress {
+    width: 5rem;
+    height: 5rem;
+    margin: calc(100svh / 2 - 5rem / 2) auto 0 auto;
+}

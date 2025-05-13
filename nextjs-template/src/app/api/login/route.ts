@@ -28,8 +28,6 @@ export async function POST(
 
         const request: LoginAPI.POST.Request = await req.json()
 
-        console.log(request)
-
         const u = await UserAccountDAO.getByUserIdAndPass(client, request.userId, request.pw)
 
         if (u === undefined) {
